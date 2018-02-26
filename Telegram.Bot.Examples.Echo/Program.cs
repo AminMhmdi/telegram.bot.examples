@@ -141,7 +141,7 @@ namespace Telegram.Bot.Examples.Echo
         {
             Console.WriteLine($"Received inline query from: {inlineQueryEventArgs.InlineQuery.From.Id}");
 
-            InlineQueryResultBase[] results = {
+            InlineQueryResult[] results = {
                 new InlineQueryResultLocation
                 {
                     Id = "1",
